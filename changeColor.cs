@@ -9,7 +9,7 @@ public class SelectObject : MonoBehaviour
     private Renderer Cube;
 
     public Material MainMaterial;
-    Color color;
+    Color color; // Chachea el color original del objeto
 
 
     void Start()
