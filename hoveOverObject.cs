@@ -1,3 +1,5 @@
+// Script que cambia el color del objeto mientras el cursor pasa por encima 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
