@@ -1,3 +1,5 @@
+// Script que devuelve la info del objeto seleccionado desde GameScreen
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
