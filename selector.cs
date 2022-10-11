@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class TargetSelector : MonoBehaviour
 {
+
+    public Text UIObjectText;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,9 @@ public class TargetSelector : MonoBehaviour
          {
             // Debug.Log("Hit " + hitInfo.transform.gameObject.name);
             Debug.Log("Hit " + hitInfo.transform.GetComponent<Text>().text);
+            
+            
+            UIObjectText.text = hitInfo.transform.GetComponent<Text>().text;
 
             if (hitInfo.transform.gameObject.tag == "Construction")
             {
@@ -34,10 +39,9 @@ public class TargetSelector : MonoBehaviour
                 // Debug.Log ("nopz");
             }
          } else {
-            Debug.Log("No hit");
+            //  Debug.Log("No hit");
          }
          // Debug.Log("Mouse is down");
      } 
  }
 }
-
