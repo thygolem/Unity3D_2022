@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TargetSelector : MonoBehaviour
 {
@@ -21,19 +22,22 @@ public class TargetSelector : MonoBehaviour
          
          RaycastHit hitInfo = new RaycastHit();
          bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
-         if (hit) 
+         if (hit)
          {
-             Debug.Log("Hit " + hitInfo.transform.gameObject.name);
-             if (hitInfo.transform.gameObject.tag == "Construction")
-             {
-                 // Debug.Log ("It's working!");
-             } else {
-                 // Debug.Log ("nopz");
-             }
+            // Debug.Log("Hit " + hitInfo.transform.gameObject.name);
+            Debug.Log("Hit " + hitInfo.transform.GetComponent<Text>().text);
+
+            if (hitInfo.transform.gameObject.tag == "Construction")
+            {
+                // Debug.Log ("It's working!");
+            } else {
+                // Debug.Log ("nopz");
+            }
          } else {
-             Debug.Log("No hit");
+            Debug.Log("No hit");
          }
          // Debug.Log("Mouse is down");
      } 
  }
 }
+
