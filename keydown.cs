@@ -1,3 +1,5 @@
+// Script que añade al contador las pulsaciones de las flechas en parámetro de vertical y horizontal
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
