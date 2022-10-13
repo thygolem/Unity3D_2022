@@ -79,3 +79,67 @@ private void Awake()
 
 
     }
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////       ENUM Y SWITCH       ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+
+public enum DiasSemana
+{
+    Lunes, 
+    Martes, 
+    Miercoles, 
+    Jueves, 
+    Viernes, 
+    Sabado, 
+    Domingo
+}
+
+
+
+
+public class Ejercicios : MonoBehaviour
+{
+    // [SerializeField] int numero1 = 1;
+    
+    [SerializeField] DiasSemana diaSemana;
+
+    
+    private void Awake()
+    {
+        Ejercicio18SwitchConEnum();
+    }
+
+
+
+
+    private void Ejercicio18SwitchConEnum()
+    {
+        switch(diaSemana){
+        case DiasSemana.Lunes:
+            Debug.Log("1");
+            break;
+        case DiasSemana.Martes:
+            Debug.Log("2");
+            break;
+        
+        }
+    }
+}
