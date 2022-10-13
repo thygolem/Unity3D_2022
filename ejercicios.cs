@@ -143,3 +143,50 @@ public class Ejercicios : MonoBehaviour
         }
     }
 }
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////       FOR y SUMA       ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+public class Ejercicios : MonoBehaviour
+{
+    // [SerializeField] int numero1 = 1;
+    
+    [SerializeField] int numero1 = 10;
+
+
+    
+    private void Awake()
+    {
+        Ejercicio20SumaPrevia(); // Dado un numero, mostrar la suma de los numeros que lo anteceden 
+        // (sin incluir el propio numero) hasta el 0 de forma decreciente
+    }
+
+
+
+
+    private void Ejercicio20SumaPrevia()
+    {
+        int sumarNumeros = 0;
+        for (int iter = numero1-1; iter >= 0 ; iter--)
+        {
+            sumarNumeros = sumarNumeros + iter;
+        }
+        print($"La suma es {sumarNumeros}");
+    
+    }
+}
