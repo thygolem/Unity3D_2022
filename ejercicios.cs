@@ -295,6 +295,7 @@ public class Ejercicios : MonoBehaviour
 
 //////////////////////////////////////////////////////////////////////////
 
+using System;
 
     private void Awake()
     {
