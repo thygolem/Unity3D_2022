@@ -190,3 +190,48 @@ public class Ejercicios : MonoBehaviour
     
     }
 }
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////       METDODOS 'saturados'(tiene otro nombre)       ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+    private int resultado1;
+    private float resultado2;
+    private void Awake()
+    {
+        Prueba(1, 2);
+        Prueba(1.7f);
+
+    }
+
+
+    public void Prueba(int numero1, int numero2)
+    {   
+        resultado1 = numero1 + numero2; 
+        print(resultado1);
+    }
+    public void Prueba(float numero3)
+    {
+        resultado2 = numero3 + numero3; 
+        print(resultado2);
+    }
