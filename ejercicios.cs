@@ -235,3 +235,37 @@ public class Ejercicios : MonoBehaviour
         resultado2 = numero3 + numero3; 
         print(resultado2);
     }
+    
+    
+    
+    
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////       Preincremento       ////////////////////////
+                                   ++x;
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+    
+    
+    
+    
+        private int x;
+    private float y;
+    private void Awake()
+    {
+        x = 1;
+        y = x++;
+        Debug.Log($"{x}, {y}"); // Post-Incremento La salida es '2, 1'
+
+
+        x = 1;
+        y = ++x;
+        Debug.Log($"{x}, {y}"); // Pre-Incremento La salida es '2, 1'
+    }
+
