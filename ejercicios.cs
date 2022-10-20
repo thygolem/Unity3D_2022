@@ -303,3 +303,107 @@ using System;
             throw new Exception("Excepción");
         }
     }
+    
+    
+    
+    
+    
+   //////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////     OBJETOS     ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+
+public class Ejercicio42 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    [SerializeField] Rigidbody2D[] rigidBody2Ds;
+    float currentTime = 0f;
+    float startingTime = 0f;
+
+
+
+    public float xspeed = 0.0f;
+    public float yspeed = 0.0f;
+    public float zspeed = 0.0f;
+
+
+    public float xAngle, yAngle, zAngle;
+
+
+    private GameObject objects;
+
+    private void Start() {
+        currentTime = startingTime;
+    }
+
+
+    private void Update() {
+        // Ejecutar el void TestGet() cada segundo par
+        currentTime += 1 * Time.deltaTime;
+        //Debug.Log((int)currentTime);
+        if ((int)currentTime%2==0)
+        {
+            DeActivateOdds();
+            // objects.transform.Rotate(xAngle, yAngle, zAngle, Space.Self);
+            // En los segundos pares, desactivar los objetos impares
+        }
+        else
+        {
+            DeActivatePairs();
+            // objects.transform.Rotate(xAngle, yAngle, zAngle, Space.Self);
+
+            // En los segundos impares, desactivar los pares
+        }
+    }
+
+
+    private void Awake()
+    {
+
+
+    }
+
+    private void DeActivateOdds()
+    {
+        for (int index = 0; index < rigidBody2Ds.Length; index++)
+        {
+            if(index%2 == 0)
+            {
+                rigidBody2Ds[index].gameObject.SetActive(true);
+            }
+            else
+            {
+                rigidBody2Ds[index].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    private void DeActivatePairs()
+    {
+        for (int index = 0; index < rigidBody2Ds.Length; index++)
+        {
+            if(index%2 != 0)
+            {
+                rigidBody2Ds[index].gameObject.SetActive(true);
+            }
+            else
+            {
+                rigidBody2Ds[index].gameObject.SetActive(false);
+            }
+        }
+    }
+
+
+}
+
