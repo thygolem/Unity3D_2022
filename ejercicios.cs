@@ -407,3 +407,59 @@ public class Ejercicio42 : MonoBehaviour
 
 }
 
+
+
+
+
+
+
+
+
+
+
+    
+   //////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////     ACTIVAR DESACTIVAS SPRITERENDERER     ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// activar/ desactivar sprite renderer
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Ejercicio44 : MonoBehaviour
+{
+    [SerializeField] GameObject[] _gameObjects;
+
+
+
+    private void Awake()
+    {
+        for ( int index = 0 ; index < _gameObjects.Length; index++ )
+        {
+            if (_gameObjects[index].GetComponent<SpriteRenderer>() != null)
+            {
+                _gameObjects[index].GetComponent<SpriteRenderer>().enabled = true;
+            }
+            else
+            {
+                _gameObjects[index].gameObject.SetActive(false);
+                
+            }
+        }
+    }
+}
+
+
