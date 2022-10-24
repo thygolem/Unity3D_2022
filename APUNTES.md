@@ -15,3 +15,4 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - Polimorfismo
 - Acoplamiento
 - Encapsulamiento
+  - Perimtes acceso a algunas partes de código
