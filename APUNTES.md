@@ -28,4 +28,9 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
   - C = estructurada (no hay clases)
   - C# = objetos (hay clases)
 
+## C#
+- Variables de clase = estado
+- Método = comportamiento
 
+## Sobrecarga de métodos
+- Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables
