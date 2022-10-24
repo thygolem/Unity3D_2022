@@ -7,7 +7,7 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - https://www.youtube.com/watch?v=7ybz28Py0-U
 
 
-POO
+## POO
 
 - Herencia
 - Cohesion
