@@ -12,12 +12,12 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - Herencia
   - 
 - Cohesion
-  -
+  - Una clase debe tener sentido en sí misma
 - Abstraccion
   - 
 - Polimorfismo
-  - 
+  - Un objeto puede tomar la forma de otro
 - Acoplamiento
-  -
+  - 
 - Encapsulamiento
   - Capacidad de restringir acceso a algunas partes de código
