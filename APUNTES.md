@@ -42,3 +42,12 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 
 ### Sobrecarga de métodos
 - Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables.
+
+### Métodos estáticos
+Son métodos independientes de la definición de objetos. Un método estático puede llamarse sin tener que crear un objeto de dicha clase. Tiene restricciónes. No puede acceder a los atributos de la clase salvo que sean estáticos.
+- - - - - - Pedir foto a alberto
+
+
+### Type Casting
+Fundamental para comprender el polimorfismo
+
