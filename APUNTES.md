@@ -22,9 +22,10 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - Encapsulamiento
   - Capacidad de restringir acceso a algunas partes de código
 
-- Poo vs Estructurada. Poo puede usar elemntos de diferentes objetos y estructurada son procedimientos
+## Poo vs Estructurada.
+- Poo puede usar elemntos de diferentes objetos y estructurada son procedimientos
 
-C = estructurada (no hay clases)
-C# = objetos (hay clases)
+  - C = estructurada (no hay clases)
+  - C# = objetos (hay clases)
 
 
