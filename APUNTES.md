@@ -27,7 +27,7 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 
 
 
-## Poo vs Estructurada.
+### Poo vs Estructurada.
 - Poo puede usar elemntos de diferentes objetos y estructurada son procedimientos
 
   - C = estructurada (no hay clases)
@@ -36,9 +36,9 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 
 
 
-## C#
+### C#
 - Variables de clase = estado
 - Método = comportamiento
 
-## Sobrecarga de métodos
+### Sobrecarga de métodos
 - Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables.
