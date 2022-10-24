@@ -44,8 +44,11 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables.
 
 ### Métodos estáticos
-Son métodos independientes de la definición de objetos. Un método estático puede llamarse sin tener que crear un objeto de dicha clase. Tiene restricciónes. No puede acceder a los atributos de la clase salvo que sean estáticos.
-- - - - - - Pedir foto a alberto
+Son métodos independientes de la definición de objetos. Un método estático puede llamarse sin tener que crear un objeto de dicha clase. Tiene restricciónes. No puede acceder a los atributos de la clase (salvo que sean estáticos).
+No puede utilizar el operador this, ya que este método se puede llamar sin tener que crear un objeto de la clase.
+Puede llamar a otro método siempre y cuando sea estático.
+Un método estático es lo más parecido a lo que son las funciones en los lenguajes estructurados (con la diferencia que se encuentra encapsulado en una clase)
+
 
 
 ### Type Casting
