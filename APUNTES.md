@@ -10,9 +10,14 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 ## POO
 
 - Herencia
+  - 
 - Cohesion
+  -
 - Abstraccion
+  - 
 - Polimorfismo
+  - 
 - Acoplamiento
+  -
 - Encapsulamiento
-  - Perimtes acceso a algunas partes de código
+  - Capacidad de restringir acceso a algunas partes de código
