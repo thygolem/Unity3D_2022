@@ -33,4 +33,4 @@ Podemos usar rayos para detectar balas que golpean objetivos y clics del mouse p
 - Método = comportamiento
 
 ## Sobrecarga de métodos
-- Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables
+- Cuando usamos el msimo nombre para varios métodos donde cada uno de ellos usa diferentes variables.
