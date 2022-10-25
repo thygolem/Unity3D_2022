@@ -53,4 +53,5 @@ Un método estático es lo más parecido a lo que son las funciones en los lengu
 
 ### Type Casting
 Fundamental para comprender el polimorfismo
+Informamos al compilador de que una variable puede ser usada por otro tipo
 
