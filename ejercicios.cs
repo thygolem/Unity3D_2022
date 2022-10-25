@@ -463,3 +463,60 @@ public class Ejercicio44 : MonoBehaviour
 }
 
 
+
+    
+   //////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////     ENUM     ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum TextState
+{
+    HolaState, AdiosState
+}
+
+public class Ejercicio54 : MonoBehaviour
+{
+    [SerializeField] TMPro.TMP_Text tmp_text;
+
+
+    TextState currentState;
+
+    void Awake() {
+        if(tmp_text == null) throw new System.Exception("ERROR, no hay texto asignado");
+    
+        currentState  = TextState.HolaState;
+        tmp_text.text = "hola";
+    }
+
+
+    public void CambiarTexto()
+    {
+
+        switch (currentState) 
+        {
+            case TextState.HolaState:
+                tmp_text.text = "adios";
+                currentState  = TextState.AdiosState;
+                break;
+            case TextState.AdiosState:
+                tmp_text.text = "hola";
+                currentState  = TextState.HolaState;
+                break;
+        }
+
+
+    }
+
+}
