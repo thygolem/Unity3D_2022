@@ -685,3 +685,68 @@ public class Ejercicio55 : MonoBehaviour
 }
 
 
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////    CAMBIAR ESTADO   ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+
+public class Ejercicio57 : MonoBehaviour
+{
+
+
+    [SerializeField] public GameObject botonEstado;
+    // Start is called before the first frame update
+
+    // private ColorBlock theButtonColor;
+    public Color[] colores;
+
+    int btn_pressed_count = 0;
+    
+
+
+    private void Awake()
+    {
+        if (botonEstado == null) throw new System.Exception("ERROR NO HAY [ BOTON ] ASIGNADO");
+
+    }
+
+
+    private void Update() {
+        
+    }
+
+    public void ChangeColor()
+    {
+        btn_pressed_count++;
+        if (btn_pressed_count >= 3)btn_pressed_count=0;
+        Debug.Log(btn_pressed_count);
+        botonEstado.GetComponent<Image>().color = colores[btn_pressed_count];
+        
+    }
+
+
+
+}
+
+
+
