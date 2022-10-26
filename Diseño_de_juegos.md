@@ -1,29 +1,29 @@
-Easter eggs
-Partir de un concepto
-Las reglas son justas y el jugador siente que progresa
+- Easter eggs
+- Partir de un concepto
+- Las reglas son justas y el jugador siente que progresa
 
 
-la actividad principal es el disfrute
-Reglas bien explicadas
-Objetivos finales pueden ser diversos
+- la actividad principal es el disfrute
+- Reglas bien explicadas
+- Objetivos finales pueden ser diversos
 - Ludicos
 - formativo, didáctico
   - Aprendes sobre una ciudad
 - Mejorar habilidades
 
-Qué es divertirse?
+## Qué es divertirse?
 - Sensaciones o emociones positivas
 
-Qué es la victoria?
+## Qué es la victoria?
 
-Los juegos fáciles son divertidos?
+## Los juegos fáciles son divertidos?
 
-Diversion
+## Diversion
 - Recoger info
 - Adpoptar estrategias
 - El aprendizaje es el que hace disfrutar
 
-## Generos de juegos, según Scott Rogers
+# Generos de juegos, según Scott Rogers
 ### Acción
 - Coordinación ojo - mano
 - Destreza del jugador
@@ -47,7 +47,15 @@ Diversion
 
 ### AR...
 
-### Rítmicos
+### Rítmicos, musicales
+- Colaborativo (profesionales de la musica quieren incorporarlo)
+- Entrenamiento
+
+### serios
+- educativos
+- expresión artística
+- interacciones sociales
+- suelen tener un mensaje
 
 
 
