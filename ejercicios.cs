@@ -692,16 +692,11 @@ public class Ejercicio55 : MonoBehaviour
 
 
 
-///////////////////////    CAMBIAR ESTADO   ////////////////////////
+/////// CAMBIAR ESTADO con contador y cacheando datos   ///////////////////
 
 
 
 //////////////////////////////////////////////////////////////////////////
-
-
-
-
-
 
 
 using System.Collections;
@@ -719,6 +714,7 @@ public class Ejercicio57 : MonoBehaviour
 
     // private ColorBlock theButtonColor;
     public Color[] colores;
+    Image image;
 
     int btn_pressed_count = 0;
     
@@ -727,6 +723,8 @@ public class Ejercicio57 : MonoBehaviour
     private void Awake()
     {
         if (botonEstado == null) throw new System.Exception("ERROR NO HAY [ BOTON ] ASIGNADO");
+        botonEstado.GetComponent<Image>().color = colores[btn_pressed_count];
+        image = botonEstado.GetComponent<Image>();
 
     }
 
@@ -740,13 +738,12 @@ public class Ejercicio57 : MonoBehaviour
         btn_pressed_count++;
         if (btn_pressed_count >= 3)btn_pressed_count=0;
         Debug.Log(btn_pressed_count);
-        botonEstado.GetComponent<Image>().color = colores[btn_pressed_count];
+        image.color = colores[btn_pressed_count];
         
     }
 
 
 
 }
-
 
 
