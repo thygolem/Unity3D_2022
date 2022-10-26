@@ -520,3 +520,168 @@ public class Ejercicio54 : MonoBehaviour
     }
 
 }
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////     ENUM y procedimientos    ////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using System;
+
+
+public enum PrestamoState
+{
+    Solicitado, EnRevision, Cancelado, Autorizado, Entregado, Pagado
+}
+public class Ejercicio55 : MonoBehaviour
+{
+
+    // Variables de clase
+
+    [SerializeField] public TMP_Text tmp_text;
+
+    [SerializeField] public TMP_InputField tmp_input;
+
+    [SerializeField] public Button boton;
+
+    [SerializeField, Tooltip("Cantidad prestada"), Range(1000, 2000)]
+    public int prestamo = 1500;
+
+    // public int ingreso = tmp_input.text;
+
+
+    PrestamoState currentState;
+
+    // Métodos
+    public void Awake()
+    {
+        if (tmp_text == null) throw new System.Exception("ERROR NO HAY texto ASIGNADO");
+        if (tmp_input == null) throw new System.Exception("ERROR NO HAY input ASIGNADO");
+        if (boton == null) throw new System.Exception("ERROR NO HAY boton ASIGNADO");
+
+        tmp_input.gameObject.SetActive(false); // habilita el objeto
+        boton.gameObject.SetActive(false); // habilita el objeto
+                                           // boton.enabled = false; // habilita el texto
+
+
+        // currentState = PrestamoState.Solicitado;
+        ChangeState(PrestamoState.Solicitado);
+
+    }
+
+
+    public void Update()
+    {
+        switch (currentState)
+        {
+            case PrestamoState.Solicitado:
+                if (Input.GetKeyDown(KeyCode.P))
+                {
+                    // currentState = PrestamoState.EnRevision;
+                    ChangeState(PrestamoState.EnRevision);
+                }
+
+                break;
+            case PrestamoState.EnRevision:
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    // currentState = PrestamoState.Autorizado;
+                    ChangeState(PrestamoState.Autorizado);
+
+                }
+                else // mejor lectura que 'else if' junto
+                {
+                    if (Input.GetKeyDown(KeyCode.R))
+                    {
+                        // currentState = PrestamoState.Cancelado;
+                        ChangeState(PrestamoState.Cancelado);
+
+                    }
+                }
+                break;
+            case PrestamoState.Cancelado:
+
+                break;
+
+            case PrestamoState.Autorizado:
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    // currentState = PrestamoState.Entregado;
+                    ChangeState(PrestamoState.Entregado);
+                    tmp_input.gameObject.SetActive(true);
+                    boton.gameObject.SetActive(true);
+                }
+                break;
+            case PrestamoState.Entregado:
+                break;
+            case PrestamoState.Pagado:
+                break;
+        }
+    }
+
+    private void ChangeState(PrestamoState newState)
+    {
+
+        currentState = newState;
+        // Debug.Log(currentState.ToString());
+        tmp_text.text = currentState.ToString();
+
+
+
+
+    }
+
+    public void Pagar()
+    {
+
+        bool esPosible = Int32.TryParse(tmp_input.text, out int ingreso);
+        // Int32 pertenece a 'using System;'
+
+        if (esPosible)
+        {
+            if (ingreso > 0)
+            {
+                prestamo -= ingreso;
+                tmp_input.text = string.Empty;
+            }
+            if (prestamo <= 0)
+            {
+                ChangeState(PrestamoState.Pagado);
+                tmp_input.gameObject.SetActive(true);
+                boton.gameObject.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("ERROR");
+            }
+
+
+        }
+    }
+}
+
+
