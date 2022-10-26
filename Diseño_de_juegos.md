@@ -57,11 +57,28 @@
 - interacciones sociales
 - suelen tener un mensaje
 
+### Simuladores, gestión de recursos
+- ver farming simulator 19
+
+### Simulación de conducción, pilotaje
+
+### Tradicionales
+- cartas, casinos...
 
 
+# Tipos de jugadores
+## Casuale
 
+## Competitivos
 
+## Ganadores
+- Logros, compiten consigo mismos, coleccionistas, achievers
 
+## Exploradores
+- No dejan nada por ver
+- Mas pausados
+
+## Sociables
 
 
 
