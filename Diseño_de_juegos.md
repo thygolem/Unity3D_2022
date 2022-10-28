@@ -142,19 +142,55 @@ En peliclas se llama guion, tecnico, escaleta, story telliing,
 
 GDD está en continuo cambio y sire para coordinar al un equipo.
 
-# Existe el TDD, (technical design document)
+## Existe el TDD, (technical design document)
 
 
 
+## Motivación de jugador
+### Curva de aprendizaje
+- Curvas de aprendizaje ...Evitar anticlimax (estrés relajado)
+- Crear tensión -> descanso
+
+### Lore
+Historia puede aparecer en el GDD
+### Sistemas de mejora
+
+
+## Adaptarse a los jugadores
+- Sistemas de logros
+- Chats
+- Secretos
+- Clasificaciones
+- ....
 
 
 
+# Diseño de niveles
+Alto contenido artístico o subjetivo
+
+Consejos:
+- los clichés funciona, no copies, pero inspírate
+- Técnica de la piza mexicana: usar varias temáticas con fuerza para que tus niveles sean diferentes y único. 
+    - Mazmorras + volcanes = mazmorras volcánicas
 
 
+Desde lo genérico a lo específico
 
+El mapa debe tener un orden para no marear.
 
+## uso de mapas y señales para generar expectación
+el factor sorpresa está bien, pero en pequeñas dosis. conviene avisar de que va a pasar algo.
 
+## fracasar, aprender y triunfar de una manera balanceada.!!!!!!!
 
+Si parece que un jugador puede llegar a un sitio, debe poder hacerlo para no frustrarle.
+Variedad
+No linealidad, sorpresa
+Evitar lo previsible
+
+Mejor pocas mecánicas que muchas. los sistemas de mejorar son buenos, más rapidez, mejores habilidades...
+
+los jugadores buscan la manera de romper el juego, para los jugadores exploradores está bien
 
 
 
