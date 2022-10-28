@@ -83,8 +83,12 @@
 
 
 
+# MECÁNICAS
+Acciones en el juego que cambian el 'game state'
 
-
+## Tipos de interacción según reglas, rol, resultado....
+'moverse, recoger y colocar piezas...'
+...pero cómo? acercase al lugar de dejar el objeto y automáticamente se pega como un imán? o tiene que colocarlo con un ángulo concreto....
 
 
 
