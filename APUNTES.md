@@ -78,4 +78,7 @@ Un método estático es lo más parecido a lo que son las funciones en los lengu
 ### Type Casting
 Fundamental para comprender el polimorfismo
 Informamos al compilador de que una variable puede ser usada por otro tipo
-
+n1 = 5
+n2 = 2
+n3 = (float) n1 /n2
+n3 = 2.5
