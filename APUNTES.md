@@ -96,12 +96,13 @@ Todos los tokens deben formar parate del game world token
 Por ejemplo, el token para el avatar del jugador actúa como usaer interface entre el jugador y el juego.
 
 
-- Se crean plantillas, matrices, para mostrar las interacciones entre los tokens
+- Se crean plantillas tipo excel, matrices, para mostrar las interacciones entre los tokens
   -   1 | 2 | 3 | 4
 -  1 x
 -  2 .   x   .   . 
 -  3 .   x   x   .
 -  4 .   .   .   x
+
 
 
 
