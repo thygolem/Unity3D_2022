@@ -82,3 +82,10 @@ n1 = 5
 n2 = 2
 n3 = (float) n1 /n2
 n3 = 2.5
+
+
+# Tokenizacion meduante diagramas de modelo de dominio con UML
+Analisis de clases conceptuales (tokens)
+....
+
+[TODO.txt](https://github.com/thygolem/Unity3D_2022/blob/main/TODO.txt)
