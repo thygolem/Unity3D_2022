@@ -87,5 +87,12 @@ n3 = 2.5
 # Tokenizacion meduante diagramas de modelo de dominio con UML
 Analisis de clases conceptuales (tokens)
 ....
+Token significa símbolo o ficha
+
+Tokens pueden establecerse de forma jeráquica con el Game World (Zona de juego) como raíz.
+
+Todos los tokens deben formar parate del game world token
+
+Por ejemplo, el token para el avatar del jugador actúa como usaer interface entre el jugador y el juego.
 
 [TODO.txt](https://github.com/thygolem/Unity3D_2022/blob/main/TODO.txt)
