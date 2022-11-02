@@ -1,3 +1,27 @@
+# Fechas de pruebas y tests por módulo
+## Módulo 1 - (4/Nov)
+### Prueba()
+ - 
+
+## Módulo 2 - (16/Nov)
+### Prueba()
+ - 
+
+## Módulo 3 - (18/Nov)
+### Prueba()
+ -
+ 
+## Módulo 4 - (30/Nov)
+### Prueba()
+ -
+
+## Módulo 5 - (2/Dic)
+### Prueba()
+ - 
+
+
+
+
 # TÉRMINOS
 
 ## RAYCASTHIT
