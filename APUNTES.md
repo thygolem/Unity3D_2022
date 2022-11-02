@@ -98,11 +98,11 @@ Por ejemplo, el token para el avatar del jugador actúa como usaer interface ent
 
 Se crean plantillas, matrices, para mostrar las interacciones entre los tokens
 
--   1 | 2 | 3 | 4
-- 1 x
-- 2 .   x   .   . 
-- 3 .   x   x   .
-- 4 .   .   .   x
+ -   1 | 2 | 3 | 4
+-  1 x
+-  2 .   x   .   . 
+-  3 .   x   x   .
+-  4 .   .   .   x
 
 
 
