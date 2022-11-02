@@ -1,0 +1,11 @@
+¿En qué consiste el juego?
+
+¿Cuántos objetos identificas?
+
+¿Qué objetos son puramente estáticos y cuáles tienen comportamiento?
+
+¿Qué comportamientos identificas?
+
+¿Quién tiene la resposabilidad de esos comportamientos?
+
+¿Qué elementos tienen el HUD (Head Up Display)?
