@@ -145,7 +145,7 @@ namespace Scripts.Pong // Nuestra librería
 
         private float CalculateVelocity()
         {
-            switch(currentState)
+            switch(currentState) // hacemos uso de del public enum
             {
                 case PaddlemovementStates.Stop:
                     return 0;
@@ -164,7 +164,8 @@ namespace Scripts.Pong // Nuestra librería
             // pulsando f12 sobre Camera, nos lleva a la API del elemento y podemos buscar.
             // En este caso nos resulta util el camera.ortographicSize
             var clampY = Mathf.Clamp(newPositionY, -maxY, maxY);
-            return new Vector2(_rigidBody2D.position.x, clampY);
+            return new Vector2(_rigidBody2D.position.x, clampY); // clamp sirve para limitar a minimo y maximo el valor.
+            // Si nos pasamos hacia alguna dirección, se establecerá ese máx o min
 
         }
 
