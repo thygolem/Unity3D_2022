@@ -4,54 +4,69 @@
 
 
 # Primera consola
-- Magna
+- MagnaBox
 
+# inventor videojuegos
+- Ralph baer
+
+# consola de 64 bits?
+- El microprocesador, bus de datos... son de esa capacidad
 
 # Revolucion en juegos de movil
 - Angrybirds
 
+# Game engine
+-  Motor grafico y fisicas
 
 # Filtro de postprocesado del motor grafico
 - Antialing
 
 
 # seleccion de objetos que forman partes en el procesado final de renderizado
-- Occlusion Culling
+- Occlusion (Culling, ...)
 
 
 # Motor de físicas
-- Emula las propiedades del mundo...
+- Emula las propiedades del mundo real.
 
+# otros motor
+- Godot, unreal, gamemaker
 
 # Barra de herramientas
+- play pausa, grid, paso a paso, gizmo....
 
+# importante de camiar en elpanel de juego
+. Aspecto
 
 # Draw mode del panel Scene
-- Permite cambiar la manera de mostra la escena, ignorando del uso de luces y texturas
+- Permite cambiar la manera de mostra la escena, ignorando o no del uso de luces y texturas
 
 
 # Poligonos en escena
-- Wireframe
+- Wireframe en draw mode
 
 
 # Jerarquia
  - Escena
 
+# game object en ejecucion? donde aparecen? 
+- escena y jerarquia
+
 
 # Graficos 3D pero con fisicas 2D
-- 2.5D
+- 2.5D o perspectica 3/4
 
 
 # Gameobject
-- Elemento de la escena tanto activo como inactivo
+- Elementos de la escena tanto activo como inactivo
 
 
 # Prefab
-- Asset
+- Asset que se puede instanciar en la escena
 
 
 # Transform
-- Posicion, rotacion, escala
+- Posicion, rotacion, tamaño y escala
 
 
 # Render
@@ -63,10 +78,10 @@
 
 
 # Collider
-- Un componente que permite la colision entre gameobjects. Hitbox
+- Un componente que permite la colision, acoplamientos, solapamientos-... entre gameobjects. Hitbox
 
 
-# RigidBody
+# RigidBody o rigidbody2D
 - Un componente que integra las fisicas a los gameobjects
 
 
@@ -75,34 +90,35 @@
 
 
 # Joint
-- Componente que permite fisicas más complejas, visagras, muelles....
+- Componente que permite fisicas más complejas, visagras, muelles ...
 
 
-#Script
+# Script
 - Un componente que le aporta un estado y unas acciones o comportamiento a un objecto
 
 
 # Proyecciones de cámara
-- Ortografica y peerspectiva
+- Ortografica y perspectiva
 
 
 # Perspectiva
-- Cambia el tamaño a mayor segun la lejania
+- Cambia el tamaño segun la lejania
 
 
 # Ortográfica
 - Siempre muestra los objetos con su medida real
 
 
-# Cuando un gameobject es padre de otro, el hijo estará vinculado al padre mediante el componente transform
+# Cuando un gameobject es padre de otro
+- El hijo estará vinculado al padre mediante el componente transform
 
 
 # Un Asset
-- Cualquier elemento del proyecto
+- Cualquier elemento que está en el proyecto
 
 
 # Tipos de assets
-- Material, texturas, script, imagen, tilemaps, sonidos, animaciones...
+- Material, texturas, script, imagen, tilemaps, sonidos, animaciones, fuentes...
 
 
 # Unity crea archivos de configuración
