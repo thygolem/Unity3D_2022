@@ -84,7 +84,7 @@ PONG
 Marcador de cada juagdor
 
 
-[fuente del juego](https://www.dafont.com/es/pixellari.font)
+[fuentedeljuego] (https://www.dafont.com/es/pixellari.font)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - P O N G - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
