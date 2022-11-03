@@ -83,6 +83,8 @@ PONG
 ¿Qué elementos tienen el HUD (Head Up Display)?
 Marcador de cada juagdor
 
+
+[fuente del juego](https://www.dafont.com/es/pixellari.font)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - P O N G - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
