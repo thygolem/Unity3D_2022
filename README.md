@@ -131,7 +131,7 @@
 
 
 # Si querenis que una imagen esté pixelada
-- Point (no filter + apply)
+- Point (no filter)+ apply
 
 
 # Cada unidad de unity son
@@ -139,44 +139,50 @@
 
 
 
+# IDE
+- entorno de desarrollo integrado
+
+
+# Se utilizan los IDEs
+- Para programar, refactorizar, depurar ...
+
+
 # Compilación
-Proceso de traducción de un lenguaje de programación o fuente a otro lenguaje objeto
+Proceso de traducción de un lenguaje de programación o fuente a otro lenguaje objeto para que sea ejecutabel
 
-# 
-- 
+# Linker
+- enlaza las librerias 
 
 
-## POO
+# [POO]
 # Qué es una clase
-- Plantilla que engloba el estado y comportamiento de un objeto de terminado
+- Plantilla que engloba el estado y comportamiento de un objeto determinado
 
 # Estado
-- El estado de un objeto se refire al conjuntio de atributos...
+- El estado de un objeto se refire al conjunto de atributos en un momento dado
 
 # Comportamiento
-- Funcionalidad que determina las acciones que pueden realizar uno o varios objetos
+- Funcionalidad que determina las acciones que pueden realizar uno o varios objetos ante mensajes enviados por otros objectos. son acciones que provocan cambios de estado
 
-# 
--
+# POO
+- programacion orientada a objetos
 
 # Qué es un objeto en POO
 - representacion conceptual de alguna entidad de la vide real o del juego, es decir, son objetos.....Son instancias
 
+# Un objeto es una instacia de una clase
+- Si
 
 # Clase Monobehaviour
 - Clase que debe heredar todo script que queremos que sea un componente de un GameObject
 
 
-# 
+# Es lo mismo... 
 -
 
 
 # Mockup
 - Boceto
-
-
-# 
-- 
 
 
 # Paradigma
@@ -188,15 +194,15 @@ Proceso de traducción de un lenguaje de programación o fuente a otro lenguaje 
 
 
 # Programación pricedimental
-- Un conjunto de instrucciones pueden englobarse en un procedimiento o funcion
+- Un conjunto de instrucciones pueden englobarse en un procedimiento, funcion...
 
 
 # Programación modular
-- permite dividir un programa en ....
+- permite dividir un programa en modulo o subprogramas
 
 
 # 3 estructuras de control en la programación estructurada
-- Secuencia, seleccion o condicional 
+- Secuencia(iteración), seleccion o condicional
 
 
 # comentario en una linea
