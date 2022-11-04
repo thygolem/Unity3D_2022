@@ -19,7 +19,7 @@
 -  Motor grafico y fisicas
 
 # Filtro de postprocesado del motor grafico
-- Antialing
+- Antialiasing
 
 
 # seleccion de objetos que forman partes en el procesado final de renderizado
