@@ -103,8 +103,354 @@ Por ejemplo, el token para el avatar del jugador actúa como usaer interface ent
 -  3 .   x   x   .
 -  4 .   .   .   x
 
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+
+# Arcade + simulacion
+- Deportes
+
+
+# Shooter camara
+- 1a persona
+
+
+#
+-
+
+
+# Estrategia
+- Planificacion
+
+
+# minijuegos
+- Género party, varis mecánicas
+
+
+# AR
+- uso de cámara y a veces GPS
+
+
+# Ritmo
+- Rítmicos
+
+
+# Formativos
+- Serios
+
+
+# gstion de recursos 
+- simulación
+
+
+# Simuladores de conducción
+- Realismo
+
+
+# Cartas y otros juegos de azar..
+- tradicional
+
+
+# Segun richard bartle, tipos de juego
+- Exploradores, Conseguidor, killer, social
+
+
+# poco tiempo y poco dinero
+- Jugador casual, movil
+
+
+# Muchas horas de juego, AAA
+- killer
+
+
+# Compite consigo mismo, logros
+- Ganador
+
+
+# Recorre todas las partes del juego 
+- Explorador
+
+
+# Conocer gente, establece amistades
+- Social
+
+
+# La creacion del itch es util
+- Dar a conocer, vender, saber como va a ser el juego, conseguir colaboradores, inversones, recursos. Se compoe de pocas páginas. no hay un pitch ideal. Suele ser el inicio del GDD
+
+
+# Un pitch es ... para la audiencia
+- Específico
+
+
+# Si es posible coviene mostrar un video del juego no mostrar muchas diapositivas
+
+
+# Para definir un mercado objetivo
+- Publico
+- plataforma
+- Fechas
+- Razones
+
+
+# en el pitch
+- explicar brevemente
+- Referencias
+- NO hablar de puntos debiles
+- Estetica
+- Mecanicas
+
+
+# Monetizacion
+- Modelo de negocio
+ 
+
+# tipos de monetizacion
+- pago por descarga, freemium, publicidad, micropagos
+
+
+# Para destacar tu juego...
+- Diferenciación
+
+
+# El plan de desarrollo muestra cada parte necesaria para la ejecucion del proyecto, (motor, mecanicas, arte....)
+-
+
+
+#
+- Experiencia
+
+
+#
+-
+
+
+# En el pitch
+- dinero
+- recursos
+
+# Fases
+- Preproduccion
+- produccion
+- postProduccion
+
+
+# preproduccion 
+- corta, donde se describe el concepto(genero)
+
+
+# produccion
+- fase de desarrollo
+
+
+# Subfases de produccion
+- Diseño, Diseño técnico, implementación(codigo, arte, sonidos), fase alpha, fase beta, lanzamiento
+
+
+# 
+- Descripcion
+
+
+#
+- diseño
+
+
+# Implementacion
+- Primeras muestras del juego
+
+
+# Fase alpha
+- pruebas internas 
+
+
+# Fase beta
+- Pruebas abiertas, sin monetización, puede haber difusion ... ¿influencers?
+
+
+# Fase definitiva, lanzamiento
+-
+
+
+# Postproduccion, parches
+- Mantenimiento
+
+
+# Roles en la industria profesional
+- programador, diseñador, artista, productor, guionusta, musicos, QAtester, annaliticas
+
+
+# Programador
+- Programa. responsable del control del personaje
+
+
+# Programadores
+- Generalista, shaders, creador de herramientas, experto en gameplay
+
+
+# Artista da vida a
+- imagenes, modelos...
+
+
+# Especializaciones del artista 2D
+- Generalista, pixel art, vectorial, animador2D
+
+ 
+# Especializaciones del artista 3D
+- Modelar, texturizador, rigger, animador3D
+
+
+# Musicos, actores de doblaje...
+- Banda, efectos
+
+
+# Diseñador..
+- Mecanicas atratctivas
+
+
+# Especializaciones de disñador
+- Diseño de niveles(mecánicas secundarias), personajes y mecánicas 
+
+
+# El guionista o narrador
+- Logicas
+
+
+# productor
+- busca presupuesto, publisher...
+
+
+# Organizar las tareas
+- publisher
+
+
+# En marketing, Si algo no lo das a conocer no..
+- existe
+
+
+# Makerting:
+- Publicidad, SEO, RRSS, financiancion de publisher, Crowdfunding
+
+
+# Encotrar errores
+- TESting
+
+
+# QA
+-  Quality assunrance
+
+
+# Experto en analiticas tiene comp premisa
+- La informacion es oro
+
+
+# Experto en analiticas 
+- Responsable de leer datos para ganar + dinero
+
+# los terminaos que se utilizan en el juego son del autor
+-
+
+
+# 
+-
+
+
+# Las mecanicas del juego son cualqueir accion realizada por el jugador
+- Game state
+
+
+# Game state
+- variable, parametro, caracter´sitica
+
+
+# Las acciones del jugador
+- Interactividad, especificamente qué hace el jugador para alterar el estado del juego
+
+
+# Los tipos de interaccion, proposito....
+- Depende de la cantidad de jugadores
+
+
+# El jugador puede interpretar el juego independientemente de las mecanicas
+-
+
+
+# 
+-
+
+
+# mecanicas en mario
+- saltar, agacharse, andar, caer encima de enemigos....
+
+
+# Mecanicas, tetris
+- girar, desplazar, bajar
+
+
+# Mecanicas secundarias son
+- Dinámicas !!! ....  + retos
+- El jugadore no está obligado a usarlas para terminar el nivel? Son estrategias que los jugadores encuentran
+- 'No hay código explicito'
+- Ejemplo, jugadas de ajedrez
+
+
+# Mecanicas secundarias mario bros
+- Matar varios a la vez, encadenar caidas, calcular rebote de bola de fuego, coger varias monedas en un salto...
 
 
 
+# 
+-
+
+
+
+#
+-
+
+
+#
+-
+
+
+#
+-
+
+#
+-#
+-
+
+
+#
+-
+
+
+#
+-
+
+#
+-
 
 [TODO.txt](https://github.com/thygolem/Unity3D_2022/blob/main/TODO.txt)
