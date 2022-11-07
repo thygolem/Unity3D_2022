@@ -427,8 +427,8 @@ Por ejemplo, el token para el avatar del jugador actúa como usaer interface ent
 
 
 
-#
--
+# Los buenos diseñadores recomiendas innovar
+- SI
 
 
 #
