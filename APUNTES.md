@@ -456,7 +456,6 @@ Por ejemplo, el token para el avatar del jugador actúa como usaer interface ent
 - Cuadrados = fuerza, falta de inteligencia
 - Triangulares = sofisticados
 
-" Versionar Asterix y obelix??? " 
 
 Deben de ser distinguibles por la silueta
 
@@ -475,6 +474,12 @@ Deben de ser distinguibles por la silueta
 Puede haber un PNJ, que desaparece a cuando ya te ha guiado al principio del juego.
 
 Balanceos - piedra, papel, tijera
+
+
+# Historia
+- 
+
+
 
 
 [TODO.txt](https://github.com/thygolem/Unity3D_2022/blob/main/TODO.txt)
