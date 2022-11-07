@@ -450,7 +450,31 @@ Por ejemplo, el token para el avatar del jugador actúa como usaer interface ent
 #
 -
 
-#
--
+## diseño de personajes
+- Facil de distinguir
+- redonda - simpatia, amistodos..
+- Cuadrados = fuerza, falta de inteligencia
+- Triangulares = sofisticados
+
+" Versionar Asterix y obelix??? " 
+
+Deben de ser distinguibles por la silueta
+
+## Personalidades
+- Humoristicos
+- Heroicos (tienen puntos flacos... empatizar)
+- Tipo duro (antiheroe, deadpool)
+
+## Personalización (ejemplo origen = UFO->Xcom)
+- nombre, ropa, eqipo, montura, arbol de habilidades, hogar
+- Animación de ropa, movimientos...
+
+## Cumplir con la clasificación por edades
+- tipos de anuncios que salen...
+
+Puede haber un PNJ, que desaparece a cuando ya te ha guiado al principio del juego.
+
+Balanceos - piedra, papel, tijera
+
 
 [TODO.txt](https://github.com/thygolem/Unity3D_2022/blob/main/TODO.txt)
