@@ -477,7 +477,9 @@ Balanceos - piedra, papel, tijera
 
 
 # Historia
-- 
+## Tipos
+- gauntlet hitoria por fases, pero que tiene misiones secunndarias
+- buscar curso josue monchan
 
 
 
