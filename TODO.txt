@@ -1,6 +1,6 @@
 ¿En qué consiste el juego?
 
-¿Cuántos objetos identificas?
+¿Qué objetos identificas?
 
 ¿Qué objetos son puramente estáticos y cuáles tienen comportamiento?
 
