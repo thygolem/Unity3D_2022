@@ -1,28 +1,22 @@
 # Fechas de pruebas y tests por módulo
 ## Módulo 1 - (4/Nov)
-### Prueba()
- - Ejercicio 41
+### Prueba(Ejercicio 41)
 
 ## Módulo 2 - (16/Nov)
 ### Prueba(Pitch)
- - 
 
 ## Módulo 3 - (18/Nov)
 ### Prueba(ejercicio72)
- -
  
 ## Módulo 4 - (28/Nov)
 ### Prueba(pong)
- -
 
 ## Módulo 5 - (30/nov)
 ### Prueba(tocaPelotas)
- - 
 
 
 ## Módulo 5 - (30/nov)
 ### Prueba(arkanoid)
- - 
 
 
 
