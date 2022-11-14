@@ -9,13 +9,10 @@
 ### Prueba(ejercicio72)
  
 ## Módulo 4 - (28/Nov)
-### Prueba(pong)
+### Prueba(pquete pong)
 
 ## Módulo 5 - (30/nov)
 ### Prueba(tocaPelotas)
-
-
-## Módulo 5 - (30/nov)
 ### Prueba(arkanoid)
 
 
