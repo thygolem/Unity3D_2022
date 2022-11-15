@@ -15,7 +15,8 @@
 ### Prueba(tocaPelotas)
 ### Prueba(arkanoid)
 
-
+## Otros
+- curvas bezier y b-spline
 
 # TÉRMINOS
 
